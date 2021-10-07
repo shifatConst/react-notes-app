@@ -11,26 +11,6 @@ const App = () => {
       text: "This is my first note",
       date: "12/02/2021"
     },
-    {
-      id: nanoid(),
-      text: "This is my second note",
-      date: "12/02/2021"
-    },
-    {
-      id: nanoid(),
-      text: "This is my third note",
-      date: "12/02/2021"
-    },
-    {
-      id: nanoid(),
-      text: "This is my fourth note",
-      date: "12/02/2021"
-    },
-    {
-      id: nanoid(),
-      text: "This is my fifth note",
-      date: "12/02/2021"
-    },
   ]);
 
   const [searchText, setSearchText] = useState("");
@@ -55,7 +35,7 @@ const App = () => {
     const newNote = {
       id: nanoid(),
       text: text,
-      date: date.toLocaleTimeString()
+      date: date.toDateString()
     }
     const allNotes = [...notes, newNote];
     setNotes(allNotes);

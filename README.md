@@ -1,3 +1,3 @@
 # ToDo App Using React.js
 
-[live Link](https://shifatconst-todo-app-reactjs.netlify.app/)
+[live Link](https://shifatconst-notes-app-reactjs.netlify.app/)
